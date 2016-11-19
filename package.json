@@ -1,0 +1,29 @@
+{
+  "name": "react-file-image",
+  "version": "0.0.3",
+  "description": "A React img component which loads File objects - useful for image uploads",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel FileImage.jsx --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omaksi/react-file-image.git"
+  },
+  "author": "Ondrej Maksi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omaksi/react-file-image/issues"
+  },
+  "homepage": "https://github.com/omaksi/react-file-image#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
