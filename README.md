@@ -10,11 +10,14 @@ npm install react-file-image
 ## Props
 Only the `file` Prop is required, it must be a File object
 
-## Example
+## Usage
 
 ```js
-<FileImage width="300" height="200" file={file} />
+handleFileInputChange = (e) => {
+  const file = e.target.files[0];
+}
 
+<FileImage width="300" height="200" file={file} />
 ```
 
 ## License
