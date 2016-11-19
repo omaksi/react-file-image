@@ -1,6 +1,7 @@
 # react-file-image
-A React img component which loads File objects - useful for image uploads
+A minimalistic React img component accepting File objects
 
+Useful when showing images directly from a `<input type="file" />`
 
 ## Installation
 ```sh
